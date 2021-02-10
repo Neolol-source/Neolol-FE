@@ -1,0 +1,11 @@
+version: '3'
+services:
+  master:
+    build: .
+    image: neolol-fe:latest
+    working_dir: /usr/src/app
+    environment:
+      - API_URL=https://api.neolol.com
+    command: bash -c "npm run build && npm run prod"
+    ports:
+      - 3000:3000

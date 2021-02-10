@@ -1,0 +1,52 @@
+{
+  "name": "hl-fe-website",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "prod": "next start -p 3000",
+    "development": "next start -p 3002",
+    "staging": "next start -p 3001"
+  },
+  "dependencies": {
+    "@babel/polyfill": "^7.4.4",
+    "axios": "^0.19.2",
+    "babel": "^6.23.0",
+    "es6-promise": "^4.2.8",
+    "imagemin-mozjpeg": "^8.0.0",
+    "imagemin-optipng": "^7.1.0",
+    "imagemin-svgo": "^7.0.0",
+    "isomorphic-fetch": "^2.2.1",
+    "next": "9.3.4",
+    "next-compose-plugins": "^2.2.0",
+    "next-optimized-images": "^2.5.7",
+    "next-runtime-dotenv": "^1.2.0",
+    "react": "16.13.1",
+    "react-dom": "16.13.1",
+    "react-in-viewport": "^0.0.38",
+    "regenerator-runtime": "^0.13.3",
+    "styled-components": "^4.3.2"
+  },
+  "devDependencies": {
+    "@babel/plugin-proposal-class-properties": "^7.4.4",
+    "@babel/plugin-proposal-decorators": "^7.4.4",
+    "@babel/plugin-transform-react-display-name": "^7.2.0",
+    "@babel/preset-env": "^7.4.5",
+    "@typescript-eslint/eslint-plugin": "^2.27.0",
+    "@typescript-eslint/parser": "^2.27.0",
+    "babel-eslint": "^10.1.0",
+    "babel-plugin-styled-components": "^1.10.2",
+    "cross-env": "^5.2.0",
+    "eslint": "^6.8.0",
+    "eslint-config-airbnb": "^18.1.0",
+    "eslint-config-prettier": "^6.10.1",
+    "eslint-loader": "^2.2.1",
+    "eslint-plugin-import": "^2.20.2",
+    "eslint-plugin-jsx-a11y": "^6.2.3",
+    "eslint-plugin-prettier": "^3.1.2",
+    "eslint-plugin-react": "^7.19.0",
+    "eslint-plugin-react-hooks": "^2.5.1",
+    "prettier": "^2.0.4"
+  }
+}
