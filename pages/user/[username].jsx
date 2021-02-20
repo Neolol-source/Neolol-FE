@@ -9,11 +9,15 @@ function Profile({ username }) {
   return (
     <div className="container">
       <Head>
-        <title>Neolol - The funniest place on the internet!</title>
+        <title>HUGECLONE - The funniest place on the internet!</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <Layout>
-        <h1>Profile username: {username}</h1>
+        <h1>
+          Profile username:
+          {' '}
+          {username}
+        </h1>
       </Layout>
     </div>
   );

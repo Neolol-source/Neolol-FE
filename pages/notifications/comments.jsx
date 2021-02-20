@@ -6,13 +6,13 @@ import { verifyInit } from '../../services/apiRouterService';
 const Comments = () => (
   <div className="container">
     <Head>
-      <title>Neolol - Fresh</title>
+      <title>HUGECLONE - Fresh</title>
       <link rel="icon" href="/favicon.ico" />
     </Head>
 
     <Layout>
       <h1 className="title">
-        Welcome to the Neolol comments notifications page
+        Welcome to the HugeClone comments notifications page
       </h1>
     </Layout>
   </div>

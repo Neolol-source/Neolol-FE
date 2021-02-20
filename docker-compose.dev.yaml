@@ -2,10 +2,10 @@ version: '3'
 services:
   dev:
     build: .
-    image: neolol-fe-dev:latest
+    image: hugeclone-fe-dev:latest
     working_dir: /usr/src/app
     environment:
-      - API_URL=https://api.dev.qa.neolol.com
+      - API_URL=https://api.hugeclone.dev.qa.rexgaming.org
     command: bash -c "npm run build && npm run development"
     ports:
       - 3002:3002

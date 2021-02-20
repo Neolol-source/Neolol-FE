@@ -2,10 +2,10 @@ version: '3'
 services:
   master:
     build: .
-    image: neolol-fe:latest
+    image: hugeclone-fe:latest
     working_dir: /usr/src/app
     environment:
-      - API_URL=https://api.neolol.com
+      - API_URL=https://api.hugeclone.rexgaming.org
     command: bash -c "npm run build && npm run prod"
     ports:
       - 3000:3000

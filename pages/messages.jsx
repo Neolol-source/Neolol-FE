@@ -6,12 +6,14 @@ import { verifyInit } from '../services/apiRouterService';
 const Messages = () => (
   <div className="container">
     <Head>
-      <title>NeoLol - Fresh</title>
+      <title>HUGECLONE - Fresh</title>
       <link rel="icon" href="/favicon.ico" />
     </Head>
 
     <Layout>
-      <h1 className="title">Welcome to the NeoLol messages page</h1>
+      <h1 className="title">
+        Welcome to the HugeClone messages page
+      </h1>
     </Layout>
   </div>
 );

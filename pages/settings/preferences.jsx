@@ -6,12 +6,14 @@ import { verifyInit } from '../../services/apiRouterService';
 const Preferences = () => (
   <div className="container">
     <Head>
-      <title>Neolol - The funniest place on the internet!</title>
+      <title>HUGECLONE - The funniest place on the internet!</title>
       <link rel="icon" href="/favicon.ico" />
     </Head>
 
     <Layout>
-      <h1 className="title">Preferences settings</h1>
+      <h1 className="title">
+        Preferences settings
+      </h1>
     </Layout>
   </div>
 );

@@ -2,13 +2,14 @@
 import Head from 'next/head';
 import React, { useState, useEffect } from 'react';
 import styled from 'styled-components';
-import getConfig from 'next/config';
+import getConfig from 'next/config'
 import Layout from '../components/Layout';
 
 const {
-  publicRuntimeConfig: { API_URL }, // Available both client and server side
-} = getConfig();
+  publicRuntimeConfig: {API_URL},  // Available both client and server side
+} = getConfig()
 // import { verifyInit } from '../services/apiRouterService';
+
 
 const Home = () => {
   const [posts, setPosts] = useState([]);
@@ -28,13 +29,15 @@ const Home = () => {
   return (
     <div className="container">
       <Head>
-        <title>Neolol - The funniest place on the internet!</title>
+        <title>HUGECLONE - The funniest place on the internet!</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <Layout currentPage="home">
-        <h1>Welcome to Neolol! only dev</h1>
+        <h1>
+          Welcome to HugeClone! only dev
+        </h1>
         <PostContainer>
-          {posts.map((item) => (
+          {posts.map(item => (
             <Post key={item.id}>
               <PostImage src={item.url} alt="" />
               {JSON.stringify(item)}

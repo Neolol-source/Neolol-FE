@@ -6,12 +6,14 @@ import { verifyInit } from '../../services/apiRouterService';
 const Mobile = () => (
   <div className="container">
     <Head>
-      <title>Neolol - Fresh</title>
+      <title>HUGECLONE - Fresh</title>
       <link rel="icon" href="/favicon.ico" />
     </Head>
 
     <Layout>
-      <h1 className="title">Welcome to the Neolol notifications page</h1>
+      <h1 className="title">
+        Welcome to the HugeClone notifications page
+      </h1>
     </Layout>
   </div>
 );

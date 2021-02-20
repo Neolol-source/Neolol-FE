@@ -8,7 +8,7 @@ function Tag({ tagId }) {
   return (
     <div className="container">
       <Head>
-        <title>Neolol - The funniest place on the internet!</title>
+        <title>HUGECLONE - The funniest place on the internet!</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <Layout>
@@ -36,5 +36,6 @@ export async function getServerSideProps({ params }) {
   // Pass post data to the page via props
   return { props: { tagId: params.tagId, verifyStatus: status } };
 }
+
 
 export default Tag;

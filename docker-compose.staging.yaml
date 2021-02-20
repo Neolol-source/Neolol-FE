@@ -2,10 +2,10 @@ version: '3'
 services:
   staging:
     build: .
-    image: neolol-fe-staging:latest
+    image: hugeclone-fe-staging:latest
     working_dir: /usr/src/app
     environment:
-      - API_URL=https://api.dev.staging.neolol.com
+      - API_URL=https://api.hugeclone.dev.staging.rexgaming.org
     command: bash -c "npm run build && npm run staging"
     ports:
       - 3001:3001

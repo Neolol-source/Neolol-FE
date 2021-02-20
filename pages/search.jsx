@@ -6,12 +6,14 @@ import { verifyInit } from '../services/apiRouterService';
 const Search = () => (
   <div className="container">
     <Head>
-      <title>NeoLol - The funniest place on the internet!</title>
+      <title>HUGECLONE - The funniest place on the internet!</title>
       <link rel="icon" href="/favicon.ico" />
     </Head>
 
     <Layout>
-      <h1 className="title">Welcome to the NeoLol search page!</h1>
+      <h1 className="title">
+        Welcome to the HugeClone search page!
+      </h1>
     </Layout>
   </div>
 );
